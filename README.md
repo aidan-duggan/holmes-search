@@ -8,7 +8,11 @@ This was all developed with Atom on a very old laptop ,also as a learning experi
 But for those looking for simple examples of Cassandra and Spark maybe it will be useful, who knows, I certainly learned a lot!
 
 Actions to do:
+
 Provide doc and scripts for running the program.
+
 Run the code through an IDE to improve formatting and warnings etc.
+
 Refactor the code to present a more useful interface for doing different types of operations.
+
 Try to run Spark and Cassandra in cluster mode and not just on the local machine.
