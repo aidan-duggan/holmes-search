@@ -39,8 +39,6 @@ But for those looking for simple examples of Cassandra and Spark maybe it will b
 
 Enhance docs with images, and improve default system.outs
 
-Run the code through an IDE to improve formatting and warnings etc.
-
 Refactor the code to present a more useful interface for doing different types of operations.
 
 Try to run Spark and Cassandra in cluster mode and not just on the local machine.
