@@ -35,7 +35,7 @@ But for those looking for simple examples of Cassandra and Spark maybe it will b
 
    > {spark_directory}/bin/spark-submit --class "com.pog.holmessearch.HolmesSearch" --master local[4] {source_dir}/target/holmes-db-0.1.jar
 
-Actions to do:
+### Actions to do:
 
 Enhance docs with images, and improve default system.outs
 
