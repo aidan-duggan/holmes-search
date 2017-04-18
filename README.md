@@ -25,7 +25,7 @@ But for those looking for simple examples of Cassandra and Spark maybe it will b
 
    Once Cassandra is working, the code is compiling and Spark is ready to go we now have to load the database with the text. To do that just run the following command, this will tell spark to execute the main in the class and jar provided:
 
-   {spark_directory}/bin/spark-submit --class "com.pog.holmesspark.HolmesSparkWrite" --master local[4] {source_dir}/target/holmes-db-0.1.jar
+   > {spark_directory}/bin/spark-submit --class "com.pog.holmesspark.HolmesSparkWrite" --master local[4] {source_dir}/target/holmes-db-0.1.jar
 
    At the moment this will print the Cassandra version number to confirm the connection made.
 
@@ -33,7 +33,7 @@ But for those looking for simple examples of Cassandra and Spark maybe it will b
 
    Now that the db contains the text of the novels we can run Spark jobs on it. The sample one will print out the count of the number of times "your Majesty" is said (this is hard coded at this stage..). 
 
-   {spark_directory}/bin/spark-submit --class "com.pog.holmessearch.HolmesSearch" --master local[4] {source_dir}/target/holmes-db-0.1.jar
+   > {spark_directory}/bin/spark-submit --class "com.pog.holmessearch.HolmesSearch" --master local[4] {source_dir}/target/holmes-db-0.1.jar
 
 Actions to do:
 
